@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.box{
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+div.page{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(undangan.jpg);
+    background-size: 100% 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.one{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+div.one div.title{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+div.circle{
+    height: 320px;
+    width: 320px;
+    display: flex;
+    background-image: url(frame.png);
+    background-size: 100% 100%;
+    background-position-x: 7px;
+    background-position-y: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.circle h1{
+    font-size: 50pt;
+    color: palevioletred;
+    text-align: center;
+}
+
+div.one div.title h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+div.one div.title p{
+    font-size: 20px;
+}
+
+div.one div.guest-name{
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column ;
+    gap: 5px;
+}
+
+div.box div.one div.navigation{
+    width: 100%;
+    background-color: rgb(255, 226, 231);
+    position: fixed;
+    height: 10vh;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.box div.one div.navigation a.nav{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+div.box div.one div.navigation a.nav p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+div.box div.one div.navigation a.nav:hover{
+    background-color: pink;
+}
+
+div.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.two div.quote{
+    width: 70%;
+    height: 45vh;
+    border: 3px solid rgb(227, 168, 178);
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+div.two div.quote div.top {
+    text-align: center;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+div.two div.quote div.top h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: palevioletred;
+}
+
+div.two div.quote div.top p{
+    font-size: 10px;
+}
+
+div.two div.quote div.bottom{
+    text-align: center;
+}
+div.three {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+div.three div.salam{
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+
+
+div.three div.salam p{
+    font-size: 15px;
+}
+
+div.four div.photo{
+    width: 280px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.four div.photo div.p1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.four div.photo div.p1 div.photo1{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+}
+div.four div.photo div.p1 div.photo2{
+    width: 35%;
+    height: 100%;
+    background-color: aqua;
+}
+
+div.four div.photo div.p2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.four div.photo div.p2 div.photo3{
+    width: 35%;
+    height: 100%;
+    background-color: aqua;
+}
+div.four div.photo div.p2 div.photo4{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+}
+
+div.four div.photo div.p3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.four div.photo div.p3 div.photo5{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}
+div.four div.photo div.p3 div.photo6{
+    width: 45%;
+    height: 100%;
+    background-color: aqua;
+}
+
+div.five div.box{
+    width: 80%;
+    height: 75vh;
+}
+div.five div.box div.title{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+div.five div.box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div.five div.circle{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    background-image: url(frame.png);
+    background-size: 100% 100%;
+    background-position-x: 7px;
+    background-position-y: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.five div.circle h1{
+    font-size: 30pt;
+    color: palevioletred;
+    text-align: center;
+}
+
+div.five div.box div.title h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+div.five div.box div.countdown{
+    width: inherit;
+    height: 15%;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+div.five div.box div.countdown div.time{
+    width: 20%;
+    height: 80%;
+    bottom: 2px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 23pt;
+}
+
+div.five div.box div.countdown div.space{
+    width: 2%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30pt;
+    
+}
+
+div.five div.box div.countdown div.time div.label {
+    font-size: 13px;
+}
