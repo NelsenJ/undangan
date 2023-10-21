@@ -173,62 +173,6 @@ div.four div.photo{
     align-items: center;
     justify-content: space-evenly;
 }
-div.four div.photo div.p1{
-    width: 100%;
-    height: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-div.four div.photo div.p1 div.photo1{
-    width: 60%;
-    height: 100%;
-    background-color: aqua;
-}
-div.four div.photo div.p1 div.photo2{
-    width: 35%;
-    height: 100%;
-    background-color: aqua;
-}
-
-div.four div.photo div.p2{
-    width: 100%;
-    height: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-div.four div.photo div.p2 div.photo3{
-    width: 35%;
-    height: 100%;
-    background-color: aqua;
-}
-div.four div.photo div.p2 div.photo4{
-    width: 60%;
-    height: 100%;
-    background-color: aqua;
-}
-
-div.four div.photo div.p3{
-    width: 100%;
-    height: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-div.four div.photo div.p3 div.photo5{
-    width: 50%;
-    height: 100%;
-    background-color: aqua;
-}
-div.four div.photo div.p3 div.photo6{
-    width: 45%;
-    height: 100%;
-    background-color: aqua;
-}
 
 div.five div.box{
     width: 80%;
