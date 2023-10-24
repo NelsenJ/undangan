@@ -247,11 +247,12 @@ div.five div.box div.countdown div.time div.label {
 
 div.four div.photos{
     width: 300px;
-    height: 400px;
+    height: 390px;
     display: grid;
     gap: 7px;
     padding: 7px;
-    background-color: aqua;
+    background-size: 100% 100%;
+    background-color: rgb(255, 179, 191);
     grid-template-areas: 
     'p1 p1 p1 p2 p2'
     'p3 p3 p4 p4 p4'
@@ -265,21 +266,32 @@ div.four div.photos div{
 
 .p1{
     grid-area: p1;
-    background-image: url();
+    background-image: url(prewed1.jpg);
+    background-size: 100% 100%;
 }
 
 .p2{
     grid-area: p2;
+    background-image: url(prewed2.jpg);
+    background-size: 100% 100%;
 }
 .p3{
     grid-area: p3;
+    background-image: url(prewed\ 3.jpg);
+    background-size: 100% 100%;
 }
 .p4{
     grid-area: p4;
+    background-image: url(prewed\ 4.jpg);
+    background-size: 100% 100%;
 }
 .p5{
     grid-area: p5;
+    background-image: url(prewed\ 6.jpeg);
+    background-size: 100% 100%;
 }
 .p6{
     grid-area: p6;
+    background-image: url(prewed\ 7.jpg);
+    background-size: 100% 100%;
 }
